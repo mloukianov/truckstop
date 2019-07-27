@@ -1,0 +1,47 @@
+#{extends 'Enrolling/layout.html' /}
+
+<div id="login">
+
+    <h1>&{'enrolling.title'}</h1>
+
+#{ifErrors}
+
+    <h1>Oops…</h1>
+
+#{errors}
+    <li>${error}</li>
+#{/errors}
+
+#{/ifErrors}
+
+    #{form @doRegister()}
+
+    #{if flash.error}
+    <p class="error">
+        ${messages.get(flash.error)}
+    </p>
+    #{/if}
+    #{if flash.success}
+    <p class="success">
+        ${messages.get(flash.success)}
+    </p>
+    #{/if}
+
+    <p id="email-field">
+        <label for="email">&{'enrolling.email'}</label>
+        <input type="text" name="email" id="email" value="${flash.email}" />
+    </p>
+    <p id="password-field">
+        <label for="password">&{'enrolling.password'}</label>
+        <input type="password" name="password" id="password" value="" />
+    </p>
+    <p id="retypePassword-field">
+        <label for="retypePassword">&{'enrolling.retypePassword'}</label>
+        <input type="password" name="retypePassword" id="retypePassword" value="" />
+    </p>
+    <p id="signin-field">
+        <input type="submit" id="register" value="&{'enrolling.register'}" />
+    </p>
+    #{/form}
+
+</div>

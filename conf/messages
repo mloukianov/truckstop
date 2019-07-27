@@ -1,0 +1,35 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+secure.forgot=Forgot Password
+secure.unlock=Unlock account
+secure.register=Sign Up
+
+enrolling.title=Register
+enrolling.email=Enter Email
+enrolling.password=Enter Password
+enrolling.retypePassword=Verify Password
+enrolling.register=Register User
+
+enrolling.validation.emailIsRequired=Email is Required
+enrolling.validationPasswordIsEmpty=Password Must be At Least 8 Symbols
+enrolling.validation.passwordsDoNotMatch=Password and Verify Password do not Match
+
+enrollment.confirmation.message=Registration confirmation email will be sent to %s. Please check your email and click the link to confirm it's you. Registration will be effective for the next 48 hours.
+
+enrolling.confirmation.passed=Congratulations, %s, you registration is confirmed and you are ready to proceed with enrollment process
+enrolling.confirmation.failed=Sorry, we can not find the pending confirmation for your link. Please make sure you've pasted the link completely; you can also login and request another confirmation link to be sent to you.
+
+forgot.password.title=Forgot Password
+forgot.password.username=Please enter email you've used to register
+forgot.password.submit=Send Password Reset Link
+forgot.password.sent=Your password reset link will be emailed to %s. Please check your inbox and click on the link to reset the password.
+
+reset.password.title=Reset Your Password
+forgot.password.submit=Reset
+password.reset.failed=Sorry, we can not find the information for your link. Please make sure you've pasted the link completely; you can also equest another password reset link to be sent to you.
+reset.password.success=Password successfully reset
+
+account.unlock.success=Your account %s has been successfully unlocked. Please login to TruckSlot!
+account.unlock.failed=Sorry, we could not find your account information associated with this link. Please make sure you have posted the link completely or you can request another account unloc email to be sent to you.
