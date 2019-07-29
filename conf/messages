@@ -20,6 +20,7 @@ enrollment.confirmation.message=Registration confirmation email will be sent to 
 
 enrolling.confirmation.passed=Congratulations, %s, you registration is confirmed and you are ready to proceed with enrollment process
 enrolling.confirmation.failed=Sorry, we can not find the pending confirmation for your link. Please make sure you've pasted the link completely; you can also login and request another confirmation link to be sent to you.
+enrolling.start.onboarding=Click here to start enrollment process
 
 forgot.password.title=Forgot Password
 forgot.password.username=Please enter email you've used to register
